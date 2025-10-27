@@ -1,0 +1,42 @@
+body {
+  font-family: "Comfortaa", cursive;
+  line-height: 1.6;
+  padding: 20px;
+  background: linear-gradient(to bottom, #e0fae6, #fff);
+}
+
+.content {
+  height: 2500px;
+  background: linear-gradient(white, #e4fcb3);
+}
+
+#ButtonTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #0b347b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s, transform 0.4s;
+  transform: scale(0.8);
+}
+
+#ButtonTop.show {
+  opacity: 0.8;
+  visibility: visible;
+  transform: scale(1);
+}
+
+#ButtonTop:hover {
+  opacity: 1;
+  background-color: #002a96;
+  transform: scale(1.1);
+}
