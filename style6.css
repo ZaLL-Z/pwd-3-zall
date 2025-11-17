@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td,
+th {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.main {
+  background-color: aqua;
+}
+
+.side {
+  background-color: lightgreen;
+  font-weight: bold;
+}
